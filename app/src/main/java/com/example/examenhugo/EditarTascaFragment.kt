@@ -5,6 +5,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
+import com.example.examenhugo.Categoria
+import com.example.examenhugo.Estat
+import com.example.examenhugo.R
+import com.example.examenhugo.Tasca
+import com.example.examenhugo.TasquesRepository
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout

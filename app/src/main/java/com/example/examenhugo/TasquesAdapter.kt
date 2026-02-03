@@ -23,9 +23,8 @@ class TasquesAdapter(
         fun renderitza(tasca: Tasca) {
             nomTextView.text = tasca.nom
             dataTextView.text = tasca.data
-            // ACABAR
-            //categoriaTextView.text = tasca.categoria
-            // estatTextView.text = tasca.estat
+            categoriaTextView.text = tasca.categoria as CharSequence?
+            estatTextView.text = tasca.estat as CharSequence?
 
             // Añadimos un listener para cuando se haga clic en una fila.
             itemView.setOnClickListener {

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    app:title="Les meves tasques"
+    app:titleTextColor="@android:color/white" />
+
+<com.google.android.material.chip.ChipGroup
+app:checkedChip="@id/chipTotes"
+app:singleSelection="true">
+
+<com.google.android.material.chip.Chip
+    android:id="@+id/chipTotes"
+    style="@style/Widget.Material3.Chip.Filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Totes" />
+
+<com.google.android.material.chip.Chip
+    android:id="@+id/chipFeina"
+    style="@style/Widget.Material3.Chip.Filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Feina" />
+
+<com.google.android.material.chip.Chip
+    android:id="@+id/chipFamilia"
+    style="@style/Widget.Material3.Chip.Filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Família" />
+
+<com.google.android.material.chip.Chip
+    android:id="@+id/chipPersonal"
+    style="@style/Widget.Material3.Chip.Filter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Personal" />
+
+</com.google.android.material.chip.ChipGroup>
+
+
+<androidx.recyclerview.widget.RecyclerView
+android:clipToPadding="false"
+android:padding="8dp" />

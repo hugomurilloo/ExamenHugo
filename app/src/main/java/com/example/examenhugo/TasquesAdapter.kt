@@ -26,14 +26,6 @@ class TasquesAdapter(
             categoriaTextView.text = tasca.categoria as CharSequence?
             estatTextView.text = tasca.estat as CharSequence?
 
-            // Añadimos un listener para cuando se haga clic en una fila.
-            itemView.setOnClickListener {
-                Toast.makeText(
-                    itemView.context,
-                    "Has seleccionado: ${tasca.nom}",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
         }
     }
     //Fin viewHolder

@@ -18,7 +18,9 @@ class TasquesFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var chipGroup: ChipGroup
     private lateinit var toolbar: Toolbar
-    private val adapter = TasquesAdapter()
+    private var adapter = TasquesAdapter(
+        tasques = TODO()
+    )
     private var categoriaSeleccionada: Categoria? = null
 
     override fun onCreateView(

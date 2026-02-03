@@ -25,7 +25,7 @@ class TasquesAdapter : RecyclerView.Adapter<TascaViewHolder>() {
     }
 
 }
-// Holder per a Tasca
+// Holder per a Tascaa
 class TascaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
 }
